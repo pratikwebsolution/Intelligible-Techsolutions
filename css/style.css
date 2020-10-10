@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cinzel+Decorative:wght@400;900&family=Cormorant+Garamond&family=Philosopher:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=El+Messiri&family=Great+Vibes&family=Sansita:wght@400;800&display=swap');
+
+.navigation{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 4px 8px 0px rgb(0,0,0,0.3);
+}
+}
+
+.dropdown-menu{
+background-color: #b100e8;
+}
+
+.dmenu{
+background-color: #b100e8;
+
+}
+
+.video{
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+.main{
+    height: 760px;
+    width: 100%;
+    position: absolute;
+    /* background-image: url(../img/img9.jpg);
+    background-size: cover; */
+}
+.tlayer{
+    height: 760px;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(209,0,209,0.4);
+}
+
+.extra{
+    height: 760px;
+    width: 100%;
+}
+
+.mainheader{
+    /* background-color: #6a00f4; */
+    background-color: #b100e8;
+}
+
+.navbar-nav li{
+    font-size: 22px;
+    /* font-weight: bold; */
+    font-family: 'Abel', sans-serif;
+    margin-right: 15px;
+    letter-spacing: 2px;
+    
+}
+
+.navbar-nav li a{
+    color: white;
+
+
+}
+.webname{
+    color: white;
+    font-size: 35px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bolder;
+   
+}
+
+/* p{
+    font-family: 'Abel', sans-serif;
+    
+}
+h1{
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bolder;
+    
+}
+h2{
+    font-family: 'Cinzel Decorative', cursive;
+  
+    
+} */
+#about{
+    min-height: 600px; 
+
+}
+
+#about h1{
+    margin-top: 200px;
+    /* font-family: 'Dosis', sans-serif; */
+    font-family: 'Abel', sans-serif;
+    /* font-family: 'El Messiri', sans-serif; */
+    /* font-family: 'Sansita', sans-serif; */
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 45px;
+}
+#about p{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+.cont{
+    background-color: #b100e8;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+
+.cont h5{
+    font-family: 'Abel', sans-serif;
+    font-weight: 900;
+
+}
+
+.cont p{
+    font-family: 'Abel', sans-serif;
+   
+}
+
+#proremote {
+    /* The image used */
+    background-image: url(../img/ProRemoteX2-Home-Desktop_0.jpg);
+  
+    /* Set a specific height */
+    min-height: 600px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #proremote h1{
+    margin-top: 200px;
+    /* font-family: 'Dosis', sans-serif; */
+    font-family: 'Abel', sans-serif;
+    /* font-family: 'El Messiri', sans-serif; */
+    /* font-family: 'Sansita', sans-serif; */
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 45px;
+}
+#proremote p{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+
+#appletv {
+    /* The image used */
+    background-image: url(../img/SavantHomeApp-Home-Desktop-02.jpg);
+  
+    /* Set a specific height */
+    min-height: 600px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #appletv h1{
+    margin-top: 200px;
+    /* font-family: 'Dosis', sans-serif; */
+    font-family: 'Abel', sans-serif;
+    /* font-family: 'El Messiri', sans-serif; */
+    /* font-family: 'Sansita', sans-serif; */
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 45px;
+}
+#appletv p{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+
+}
+
+#wirelessaudio {
+    /* The image used */
+    background-image: url(../img/hero-smart-audio-desktop\ \(1\).png);
+  
+    /* Set a specific height */
+    min-height: 600px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #wirelessaudio h1{
+    margin-top: 200px;
+    /* font-family: 'Dosis', sans-serif; */
+    font-family: 'Abel', sans-serif;
+    /* font-family: 'El Messiri', sans-serif; */
+    /* font-family: 'Sansita', sans-serif; */
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 45px;
+}
+#wirelessaudio p{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+
+}
+
+#monitermanage {
+    /* The image used */
+    background-image: url(../img/EnergyScreen_1440x750.png);
+  
+    /* Set a specific height */
+    min-height: 600px; 
+  
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #monitermanage h1{
+    margin-top: 200px;
+    /* font-family: 'Dosis', sans-serif; */
+    font-family: 'Abel', sans-serif;
+    /* font-family: 'El Messiri', sans-serif; */
+    /* font-family: 'Sansita', sans-serif; */
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 45px;
+}
+#monitermanage p{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+   
+
+}
+.imghide{
+    display: none;
+}
+
+.tlayer h1{
+    margin-top: 290px;
+    font-size: 55px;
+    font-weight: bolder;
+    color: white;
+}
+.tlayer p{
+    color: white;
+    font-family: 'Abel', sans-serif;
+  font-size: 20px;
+
+}
+.seclayer{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(137, 100, 242, 0.4);
+    color: white;
+}
+.seclayer1{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(209,0,209,0.4);
+    color: white;
+}
+.card-img{
+    height: 310px;
+}
+#cicone{
+    font-size: 55px;
+    /* text-align: center; */
+   margin-top: 10px;
+    color: #CCC;
+}
+.ccard{
+    border: none;
+    background: transparent;
+}
+
+.iconbox{
+    padding: 20px ;
+    background-color:#219ebc;
+    width: 100px;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.icone{
+    font-size: 55px;
+    text-align: center;
+}
+
+
+
+.mainbox{
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 4px 8px 0px rgb(0,0,0,0.3);
+    padding: 20px;
+
+
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #b100e8;
+    outline: none;
+    border-radius: 5px;
+    border-bottom: 5px solid #f20089 ;
+}
+
+.btn-savant{
+    background-color: #b100e8;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 5px solid #f20089;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px 0px rgb(0,0,0,0.3);
+}
+
+/* main Head And navigation css */
+/* #8ecae6
+
+#fb8600 */
+
+/*footer*/
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#b100e8; min-height:250px; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}

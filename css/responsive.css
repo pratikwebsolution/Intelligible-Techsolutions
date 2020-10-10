@@ -1,0 +1,60 @@
+@media(max-width:540px){
+    .video{
+        display: none;
+    }
+    .tlayer h1{
+        font-size: 30px;
+    }
+
+    #appletv h1{
+        margin-top: 100px;
+
+    }
+    #about h1{
+        margin-top: 100px;
+
+    }
+    #monitermanage h1{
+        margin-top: 100px;
+
+    }
+
+    #wirelessaudio h1{
+        margin-top: 100px;
+
+    }
+
+    #proremote h1{
+        margin-top: 100px;
+
+    }
+
+    #proremote{
+        background-image: url(../img/ProRemoteX2-Home-Mobile.jpg);
+    }
+
+    #appletv{
+        background-image: url(../img/SavantHomeApp-Home-Mobile-02.jpg);
+    }
+    #wirelessaudio{
+        background-image: url(../img/hero-smart-audio-mobile_0_0.png);
+    }
+    #monitermanage{
+        background-image: unset
+    }
+    .webname{
+        font-size: 20px;
+    }
+    /* .imghide{display: block;}*/
+
+} 
+
+@media(max-width:770px){
+    .video{
+        display: none;
+    }
+   
+    .main{
+        background-image: url(../img/bgimg.jpeg);
+    }
+}
